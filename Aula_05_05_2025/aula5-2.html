@@ -26,11 +26,30 @@
             <input type="number" id="idade"><br><br>
 
             <span>Sexo:</span><br>
-            <input type="radio" id="masculino" value="masculino">
+            <input type="radio" name="sexo" id="masculino" value="masculino">
             <label for="masculino">Masculino</label><br>
-            <input type="radio" id="feminino" value="feminino">
-            <label for="feminino">Feminino</label>
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+            <label for="feminino">Feminino</label><br><br>
+
+            <span>Interesses:</span><br>
+            <input type="checkbox" name="interesse" id="tecnologia" value="tecnologia">
+            <label for="tecnologia">Tecnologia</label><br>
+            <input type="checkbox" name="interesse" id="arte" value="arte">
+            <label for="arte">Arte</label><br>
+
+            <label for="comentario">Comentários:</label><br>
+            <textarea name="comentario" id="comentario" rows="5"></textarea><br>
             
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="">Selecione o Estado</option>
+                <option value="tocantins">Tocantins</option>
+                <option value="goias">Goias</option>
+                <option value="saopaulo">São Paulo</option>
+            </select><br>
+
+            
+
         </form>
 
     </div>
