@@ -1,0 +1,39 @@
+/*Seletor do tipo: tag*/
+h1, h2 {
+    color: chocolate;
+    text-align: center;
+}
+
+/*Seletor de classe*/
+.data {
+    text-align: center;
+}
+
+/*Seletor do tipo: id*/
+#aula7 {
+    font-size: 50px;
+    text-align: center;
+    color: #1bce80;
+}
+
+/*Seletor do tipo: descendente*/
+.conteudo p {
+    color: green;
+}
+
+.conteudo h3 {
+    color: blue;
+}
+
+/*
+seletor universal
+* {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+body {
+    background-color: lightgrey;
+}
+
