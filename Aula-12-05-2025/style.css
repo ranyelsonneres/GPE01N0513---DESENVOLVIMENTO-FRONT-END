@@ -1,12 +1,14 @@
 /*Seletor do tipo: tag*/
 h1, h2 {
-    color: chocolate;
+    color: white;
     text-align: center;
+    /*text-decoration-line: line-through;*/
 }
 
 /*Seletor de classe*/
 .data {
     text-align: center;
+    color: white;
 }
 
 /*Seletor do tipo: id*/
@@ -36,4 +38,12 @@ seletor universal
 body {
     background-color: lightgrey;
 }
+
+body {
+    background-image: url("plano-fundo.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
